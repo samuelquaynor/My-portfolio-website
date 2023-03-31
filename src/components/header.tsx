@@ -2,10 +2,8 @@ export const Header = () => (
   <header id="header">
     <div className="container">
       <h1>
-        <a href="/">Samuel Williams Quaynor</a>
+        <a href="/">Samuel Quaynor</a>
       </h1>
-      {/* Uncomment below if you prefer to use an image logo */}
-      {/* <a href="/" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> */}
       <h2>
         I'm a passionate <span>Software Engineer</span> from Accra, Ghana
       </h2>
