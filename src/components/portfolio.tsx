@@ -20,17 +20,13 @@ export const Portfolio = () => (
       <div className="row portfolio-container">
         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
           <div className="portfolio-wrap">
-            <img
-              src="/img/portfolio/portfolio-1.jpg"
-              className="img-fluid"
-              alt=""
-            />
+            <img src="/img/portfolio/heny.png" className="img-fluid" alt="" />
             <div className="portfolio-info">
               <h4>App 1</h4>
               <p>App</p>
               <div className="portfolio-links">
                 <a
-                  href="/img/portfolio/portfolio-1.jpg"
+                  href="/img/portfolio/heny.jpg"
                   data-gallery="portfolioGallery"
                   className="portfolio-lightbox"
                   title="App 1"
@@ -53,7 +49,7 @@ export const Portfolio = () => (
         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
           <div className="portfolio-wrap">
             <img
-              src="/img/portfolio/portfolio-2.jpg"
+              src="/img/portfolio/materialmax.png"
               className="img-fluid"
               alt=""
             />
@@ -62,7 +58,7 @@ export const Portfolio = () => (
               <p>Web</p>
               <div className="portfolio-links">
                 <a
-                  href="/img/portfolio/portfolio-2.jpg"
+                  href="/img/portfolio/materialmax.png"
                   data-gallery="portfolioGallery"
                   className="portfolio-lightbox"
                   title="Web 3"
@@ -85,7 +81,7 @@ export const Portfolio = () => (
         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
           <div className="portfolio-wrap">
             <img
-              src="/img/portfolio/portfolio-3.jpg"
+              src="/img/portfolio/pdafunds.png"
               className="img-fluid"
               alt=""
             />
@@ -94,7 +90,7 @@ export const Portfolio = () => (
               <p>App</p>
               <div className="portfolio-links">
                 <a
-                  href="/img/portfolio/portfolio-3.jpg"
+                  href="/img/portfolio/pdafunds.png"
                   data-gallery="portfolioGallery"
                   className="portfolio-lightbox"
                   title="App 2"
@@ -117,7 +113,7 @@ export const Portfolio = () => (
         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
           <div className="portfolio-wrap">
             <img
-              src="/img/portfolio/portfolio-4.jpg"
+              src="/img/portfolio/stanbicnsawa.png"
               className="img-fluid"
               alt=""
             />
@@ -126,7 +122,7 @@ export const Portfolio = () => (
               <p>Card</p>
               <div className="portfolio-links">
                 <a
-                  href="/img/portfolio/portfolio-4.jpg"
+                  href="/img/portfolio/stanbicnsawa.png"
                   data-gallery="portfolioGallery"
                   className="portfolio-lightbox"
                   title="Card 2"
@@ -149,7 +145,7 @@ export const Portfolio = () => (
         <div className="col-lg-4 col-md-6 portfolio-item filter-web">
           <div className="portfolio-wrap">
             <img
-              src="/img/portfolio/portfolio-5.jpg"
+              src="/img/portfolio/pdaformal.png"
               className="img-fluid"
               alt=""
             />
@@ -158,7 +154,7 @@ export const Portfolio = () => (
               <p>Web</p>
               <div className="portfolio-links">
                 <a
-                  href="/img/portfolio/portfolio-5.jpg"
+                  href="/img/portfolio/pdaformal.png"
                   data-gallery="portfolioGallery"
                   className="portfolio-lightbox"
                   title="Web 2"
@@ -181,7 +177,7 @@ export const Portfolio = () => (
         <div className="col-lg-4 col-md-6 portfolio-item filter-app">
           <div className="portfolio-wrap">
             <img
-              src="/img/portfolio/portfolio-6.jpg"
+              src="/img/portfolio/digitalagric.png"
               className="img-fluid"
               alt=""
             />
@@ -190,7 +186,7 @@ export const Portfolio = () => (
               <p>App</p>
               <div className="portfolio-links">
                 <a
-                  href="/img/portfolio/portfolio-6.jpg"
+                  href="/img/portfolio/digitalagric.png"
                   data-gallery="portfolioGallery"
                   className="portfolio-lightbox"
                   title="App 3"
@@ -213,7 +209,7 @@ export const Portfolio = () => (
         <div className="col-lg-4 col-md-6 portfolio-item filter-card">
           <div className="portfolio-wrap">
             <img
-              src="/img/portfolio/portfolio-7.jpg"
+              src="/img/portfolio/facerog3.png"
               className="img-fluid"
               alt=""
             />
@@ -222,7 +218,7 @@ export const Portfolio = () => (
               <p>Card</p>
               <div className="portfolio-links">
                 <a
-                  href="/img/portfolio/portfolio-7.jpg"
+                  href="/img/portfolio/facerog3.png"
                   data-gallery="portfolioGallery"
                   className="portfolio-lightbox"
                   title="Card 1"
