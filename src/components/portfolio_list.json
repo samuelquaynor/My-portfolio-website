@@ -1,0 +1,79 @@
+[
+  {
+    "id": "2",
+    "title": "Material Max Homepage",
+    "images": ["/img/portfolio/materialmax.png"],
+    "url": "",
+    "date": "12/12/12",
+    "client": "Project",
+    "category": "Web",
+    "description": ""
+  },
+  {
+    "id": "1",
+    "title": "Heny Homepage",
+    "images": ["/img/portfolio/heny.png"],
+    "url": "https://heny.app",
+    "date": "12/12/12",
+    "client": "HENY",
+    "category": "Web",
+    "description": ""
+  },
+  {
+    "id": "3",
+    "title": "PDA Funds Homepage",
+    "images": ["/img/portfolio/pdafunds.png"],
+    "url": "https://pdafunds.com",
+    "date": "12/12/12",
+    "client": "PDA FUNDS",
+    "category": "Web",
+    "description": ""
+  },
+  {
+    "id": "4",
+    "title": "Stanbic Funeral Collection",
+    "images": ["/img/portfolio/stanbicnsawa.png"],
+    "url": "",
+    "date": "12/12/12",
+    "client": "stanbic Bank",
+    "category": "Web",
+    "description": ""
+  },
+  {
+    "id": "5",
+    "title": "PDA App",
+    "images": ["/img/portfolio/pdaformal.png"],
+    "url": "",
+    "date": "12/12/12",
+    "client": "PDA FUNDS",
+    "category": "App"
+  },
+  {
+    "id": "6",
+    "title": "Digital Agric",
+    "images": ["/img/portfolio/digitalagric.png"],
+    "url": "",
+    "date": "12/12/12",
+    "client": "Project",
+    "category": "App"
+  },
+  {
+    "id": "7",
+    "title": "Face Recognition Attendance System",
+    "images": ["/img/portfolio/facerog3.png"],
+    "url": "",
+    "date": "12/12/12",
+    "client": "Project",
+    "category": "Web",
+    "description": ""
+  },
+  {
+    "id": "8",
+    "title": "Heny Mobile App",
+    "images": ["/img/portfolio/henymobileapp.png"],
+    "url": "",
+    "date": "12/12/12",
+    "client": "HENY",
+    "category": "App"
+  }
+]
