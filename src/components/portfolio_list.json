@@ -12,17 +12,29 @@
   {
     "id": "1",
     "title": "Heny Homepage",
-    "images": ["/img/portfolio/heny.png"],
+    "images": [
+      "/img/portfolio/heny.png",
+      "/img/portfolio/heny_web/heny_web.png",
+      "/img/portfolio/heny_web/heny_web2.png",
+      "/img/portfolio/heny_web/heny_web3.png",
+      "/img/portfolio/heny_web/heny_web4.png",
+      "/img/portfolio/heny_web/heny_web5.png"
+    ],
     "url": "https://heny.app",
     "date": "12/12/12",
     "client": "HENY",
     "category": "Web",
-    "description": ""
+    "description": "Heny is creating a managed market place for Authentic African experiences where individuals and small business get to participate the the gig economy by sharing their experiences and culture with others. These experiences are seen by our over 2,400+ customers who are interested in new experiences.We envision to be the driving force that is empowering users to discover new experiences across the globe. Simply put, HENY is helping users discover new experiences across Africa"
   },
   {
     "id": "3",
     "title": "PDA Funds Homepage",
-    "images": ["/img/portfolio/pdafunds.png"],
+    "images": [
+      "/img/portfolio/pdafunds.png",
+      "/img/portfolio/pda_web/pda_web.png",
+      "/img/portfolio/pda_web/pda_web1.png",
+      "/img/portfolio/pda_web/pda_web2.png"
+    ],
     "url": "https://pdafunds.com",
     "date": "12/12/12",
     "client": "PDA FUNDS",
@@ -43,25 +55,27 @@
     "id": "5",
     "title": "PDA App",
     "images": ["/img/portfolio/pdaformal.png"],
-    "url": "",
+    "url": "https://github.com/samuelquaynor",
     "date": "12/12/12",
     "client": "PDA FUNDS",
-    "category": "App"
+    "category": "App",
+    "description": ""
   },
   {
     "id": "6",
-    "title": "Digital Agric",
+    "title": "Digi-Farm",
     "images": ["/img/portfolio/digitalagric.png"],
-    "url": "",
+    "url": "https://github.com/samuelquaynor",
     "date": "12/12/12",
     "client": "Project",
-    "category": "App"
+    "category": "App",
+    "description": ""
   },
   {
     "id": "7",
     "title": "Face Recognition Attendance System",
     "images": ["/img/portfolio/facerog3.png"],
-    "url": "",
+    "url": "https://github.com/samuelquaynor",
     "date": "12/12/12",
     "client": "Project",
     "category": "Web",
@@ -71,9 +85,32 @@
     "id": "8",
     "title": "Heny Mobile App",
     "images": ["/img/portfolio/henymobileapp.png"],
-    "url": "",
+    "url": "https://heny.app",
     "date": "12/12/12",
     "client": "HENY",
-    "category": "App"
+    "category": "App",
+    "description": ""
+  },
+  {
+    "id": "9",
+    "title": "Grocery Shop",
+    "images": ["/img/portfolio/grocery/grocery.png"],
+    "url": "https://github.com/samuelquaynor",
+    "date": "12/12/12",
+    "client": "Project",
+    "category": "App",
+    "description": ""
+  },
+  {
+    "id": "10",
+    "title": "Uber Clone",
+    "images": [
+      "/img/portfolio/uber clone/uber_clone.png"
+    ],
+    "url": "https://github.com/samuelquaynor",
+    "date": "12/12/12",
+    "client": "Project",
+    "category": "App",
+    "description": ""
   }
 ]

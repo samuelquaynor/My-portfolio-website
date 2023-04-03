@@ -10,8 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <Script src="/vendor/glightbox/js/glightbox.min.js"></Script>
       <Script src="/vendor/isotope-layout/isotope.pkgd.min.js"></Script>
       <Script src="/vendor/waypoints/noframework.waypoints.js"></Script>
-      <Component {...pageProps} />
       <Script type="module" src="/js/main.js"></Script>
+      <Component {...pageProps} />
     </div>
   );
 }
