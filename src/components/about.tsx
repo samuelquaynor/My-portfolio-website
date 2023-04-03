@@ -1,5 +1,4 @@
 export default function About() {
-  
   return (
     <>
       <section id="about" className="about">
@@ -354,14 +353,15 @@ export default function About() {
             data-aos-delay={100}
           >
             <div className="swiper-wrapper">
-              {/* <div className="swiper-slide">
+              <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
-                    Proin iaculis purus consequat sem cure digni ssim donec
-                    porttitora entum suscipit rhoncus. Accusantium quam,
-                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                    risus at semper.
+                    Working with Samuel was an absolute pleasure. Their
+                    expertise in coding and problem-solving helped us streamline
+                    our software development process and deliver high-quality
+                    products on time. I highly recommend Samuel for any software
+                    development needs.
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
                   <img
@@ -369,19 +369,20 @@ export default function About() {
                     className="testimonial-img"
                     alt=""
                   />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <h3>Philip Afful</h3>
+                  <h4>Ceo &amp; Founder (Heny Tech Solutions & PDA FUNDS)</h4>
                 </div>
-              </div> */}
+              </div>
               {/* End testimonial item */}
-              {/* <div className="swiper-slide">
+              <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
-                    Export tempor illum tamen malis malis eram quae irure esse
-                    labore quem cillum quid cillum eram malis quorum velit fore
-                    eram velit sunt aliqua noster fugiat irure amet legam anim
-                    culpa.
+                    I've had the pleasure of collaborating with Samuel on
+                    multiple projects, and their technical skills and attention
+                    to detail have never ceased to amaze me. They always go
+                    above and beyond to deliver top-notch software that exceeds
+                    expectations. I wouldn't hesitate to work with them again.
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
                   <img
@@ -389,18 +390,21 @@ export default function About() {
                     className="testimonial-img"
                     alt=""
                   />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <h3>Eugene Adortsu</h3>
+                  <h4>CTO (Heny Tech Solutions)</h4>
                 </div>
-              </div> */}
+              </div>
               {/* End testimonial item */}
-              {/* <div className="swiper-slide">
+              <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
-                    Enim nisi quem export duis labore cillum quae magna enim
-                    sint quorum nulla quem veniam duis minim tempor labore quem
-                    eram duis noster aute amet eram fore quis sint minim.
+                    If you're looking for a talented and dedicated software
+                    developer, look no further than Samuel. Their ability to
+                    think outside the box and come up with creative solutions to
+                    complex problems is truly impressive. I've seen firsthand
+                    how their contributions have elevated the quality of our
+                    software and improved our overall workflow.
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
                   <img
@@ -408,19 +412,22 @@ export default function About() {
                     className="testimonial-img"
                     alt=""
                   />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <h3>Philemon Asempa</h3>
+                  <h4>Tech Lead (Stanbic Bank)</h4>
                 </div>
-              </div> */}
+              </div>
               {/* End testimonial item */}
-              {/* <div className="swiper-slide">
+              <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                    multos export minim fugiat minim velit minim dolor enim duis
-                    veniam ipsum anim magna sunt elit fore quem dolore labore
-                    illum veniam.
+                    I had the pleasure of working with Samuel on a particularly
+                    challenging project, and I can confidently say that he is
+                    one of the most skilled developers I've ever worked with.
+                    They were able to quickly grasp the requirements and
+                    implement a solution that not only met our needs but
+                    exceeded them. I highly recommend Samuel for any software
+                    development project.
                     <i className="bx bxs-quote-alt-right quote-icon-right" />
                   </p>
                   <img
@@ -428,10 +435,10 @@ export default function About() {
                     className="testimonial-img"
                     alt=""
                   />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <h3>Emmanuel</h3>
+                  <h4>Lead IT (Conpro Limited)</h4>
                 </div>
-              </div> */}
+              </div>
               {/* End testimonial item */}
               {/* <div className="swiper-slide">
                 <div className="testimonial-item">
