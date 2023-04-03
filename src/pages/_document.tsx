@@ -15,7 +15,7 @@ export default function Document() {
           <meta content="" name="description" />
           <meta content="" name="keywords" />
           {/* Favicons */}
-          <link href="/img/favicon.png" rel="icon" />
+          <link href="/img/favicon.ico" rel="icon" />
           <link
             href="/img/apple-touch-icon.png"
             rel="apple-touch-icon"

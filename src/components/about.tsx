@@ -86,13 +86,13 @@ export default function About() {
         {/* End About Me */}
         {/* ======= Counts ======= */}
         <div className="counts container">
-          <div className="row">
+          <div className="flex flex-row justify-evenly">
             <div className="col-lg-3 col-md-6">
               <div className="count-box">
                 <i className="bi bi-emoji-smile" />
                 <span
                   data-purecounter-start={0}
-                  data-purecounter-end={232}
+                  data-purecounter-end={49}
                   data-purecounter-duration={1}
                   className="purecounter"
                 />
@@ -104,7 +104,7 @@ export default function About() {
                 <i className="bi bi-journal-richtext" />
                 <span
                   data-purecounter-start={0}
-                  data-purecounter-end={521}
+                  data-purecounter-end={58}
                   data-purecounter-duration={1}
                   className="purecounter"
                 />
@@ -123,7 +123,7 @@ export default function About() {
                 <p>Hours Of Support</p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            {/* <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
               <div className="count-box">
                 <i className="bi bi-award" />
                 <span
@@ -134,7 +134,7 @@ export default function About() {
                 />
                 <p>Awards</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* End Counts */}
@@ -181,7 +181,7 @@ export default function About() {
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    aria-valuenow={75}
+                    aria-valuenow={85}
                     aria-valuemin={0}
                     aria-valuemax={100}
                   />
@@ -354,7 +354,7 @@ export default function About() {
             data-aos-delay={100}
           >
             <div className="swiper-wrapper">
-              <div className="swiper-slide">
+              {/* <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
@@ -372,9 +372,9 @@ export default function About() {
                   <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4>
                 </div>
-              </div>
+              </div> */}
               {/* End testimonial item */}
-              <div className="swiper-slide">
+              {/* <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
@@ -392,9 +392,9 @@ export default function About() {
                   <h3>Sara Wilsson</h3>
                   <h4>Designer</h4>
                 </div>
-              </div>
+              </div> */}
               {/* End testimonial item */}
-              <div className="swiper-slide">
+              {/* <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
@@ -411,9 +411,9 @@ export default function About() {
                   <h3>Jena Karlis</h3>
                   <h4>Store Owner</h4>
                 </div>
-              </div>
+              </div> */}
               {/* End testimonial item */}
-              <div className="swiper-slide">
+              {/* <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
@@ -431,9 +431,9 @@ export default function About() {
                   <h3>Matt Brandon</h3>
                   <h4>Freelancer</h4>
                 </div>
-              </div>
+              </div> */}
               {/* End testimonial item */}
-              <div className="swiper-slide">
+              {/* <div className="swiper-slide">
                 <div className="testimonial-item">
                   <p>
                     <i className="bx bxs-quote-alt-left quote-icon-left" />
@@ -451,7 +451,7 @@ export default function About() {
                   <h3>John Larson</h3>
                   <h4>Entrepreneur</h4>
                 </div>
-              </div>
+              </div> */}
               {/* End testimonial item */}
             </div>
             <div className="swiper-pagination" />
