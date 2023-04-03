@@ -1,6 +1,6 @@
 import About from "../components/about";
 import { Contact } from "../components/contact";
-import { Header } from "../components/header";
+import Header from "../components/header";
 import Portfolio from "../components/portfolio";
 import { Resume } from "../components/resume";
 import { Services } from "../components/services";
