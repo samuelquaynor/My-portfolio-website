@@ -20,15 +20,13 @@ export default function PortfolioPage({
                   <div className="swiper-wrapper align-items-center">
                     {portfolio?.images.map((url) => (
                       <div className="swiper-slide">
-                        <img
-                          style={{
-                            objectFit: "cover",
-                            height: "100%",
-                            width: "100%",
-                          }}
-                          src={url}
-                          alt=""
-                        />
+                        <div className="w-full" >
+                          <img
+                            src={url}
+                            style={{maxHeight:"480px"}}
+                            alt=""
+                          />
+                        </div>
                       </div>
                     ))}
                   </div>
