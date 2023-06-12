@@ -1,29 +1,14 @@
-import About from "./components/about";
-import { Contact } from "./components/contact";
-import Header from "./components/header";
-import Portfolio from "./components/portfolio";
-import { Resume } from "./components/resume";
-import { Services } from "./components/services";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/home";
+import PortfolioPage from "./components/portfolio/index";
 
 function App() {
   return (
     <>
-      <Header />
-      {/* End Header */}
-      {/* ======= About Section ======= */}
-      <About />
-      {/* End About Section */}
-      {/* ======= Resume Section ======= */}
-      <Resume />
-      {/* End Resume Section */}
-      {/* ======= Services Section ======= */}
-      <Services />
-      {/* End Services Section */}
-      {/* ======= Portfolio Section ======= */}
-      <Portfolio />
-      {/* End Portfolio Section */}
-      {/* ======= Contact Section ======= */}
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/portfolio/:id" element={<PortfolioPage />}></Route>
+      </Routes>
     </>
   );
 }

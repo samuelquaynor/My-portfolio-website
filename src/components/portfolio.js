@@ -1,4 +1,5 @@
 import portfolios from "./portfolio_list.json";
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   return (
@@ -46,15 +47,15 @@ export default function Portfolio() {
                       >
                         <i className="bx bx-plus" />
                       </a>
-                      <a
-                        href={`portfolio/${porfolio.id}`}
+                      <Link
+                        to={`/portfolio/${porfolio.id}`}
                         data-gallery="portfolioDetailsGallery"
                         data-glightbox="type: external"
                         className="portfolio-details-lightbox"
                         title="Portfolio Details"
                       >
                         <i className="bx bx-link" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

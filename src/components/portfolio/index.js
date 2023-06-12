@@ -1,7 +1,9 @@
 import portfolios from "../portfolio_list.json";
+import { useParams } from "react-router-dom";
 
-export default function PortfolioPage({ portfolioId }) {
-  const portfolio = portfolios.find((portfo) => portfo.id === portfolioId);
+export default function PortfolioPage() {
+  const { id } = useParams();
+  const portfolio = portfolios.find((portfo) => portfo.id === id);
   return (
     <>
       <main id="main">
