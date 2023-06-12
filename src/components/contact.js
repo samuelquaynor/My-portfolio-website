@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 export const Contact = () => (
   <section id="contact" className="contact">
     <div className="container">
@@ -18,19 +19,19 @@ export const Contact = () => (
             <i className="bx bx-share-alt" />
             <h3>Social Profiles</h3>
             <div className="social-links">
-              <a href="#" className="twitter">
+              <a href="/" className="twitter">
                 <i className="bi bi-twitter" />
               </a>
-              <a href="#" className="facebook">
+              <a href="/" className="facebook">
                 <i className="bi bi-facebook" />
               </a>
-              <a href="#" className="instagram">
+              <a href="/" className="instagram">
                 <i className="bi bi-instagram" />
               </a>
-              <a href="#" className="google-plus">
+              <a href="/" className="google-plus">
                 <i className="bi bi-skype" />
               </a>
-              <a href="#" className="linkedin">
+              <a href="/" className="linkedin">
                 <i className="bi bi-linkedin" />
               </a>
             </div>

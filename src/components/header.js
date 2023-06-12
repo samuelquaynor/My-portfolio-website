@@ -67,22 +67,22 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a onClick={handleDownload} className="cursor-pointer">
+                <span onClick={handleDownload} className="cursor-pointer">
                   Download CV
-                </a>
+                </span>
               </li>
             </ul>
             <i className="bi bi-list mobile-nav-toggle" />
           </nav>
           {/* .navbar */}
           <div className="social-links">
-            <a href="#" className="twitter">
+            <a href="/" className="twitter">
               <i className="bi bi-twitter" />
             </a>
             <a href="https://github.com/samuelquaynor" className="github">
               <i className="bi bi-github" />
             </a>
-            <a href="#" className="instagram">
+            <a href="/" className="instagram">
               <i className="bi bi-instagram" />
             </a>
             <a
