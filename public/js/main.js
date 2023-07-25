@@ -174,57 +174,57 @@ import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.brow
   /**
    * Activate/show sections on load with hash links
    */
-  // window.addEventListener("DOMContentLoaded", () => {
-  //   if (window.location.hash) {
-  //     let initial_nav = select(window.location.hash);
+  window.addEventListener("DOMContentLoaded", () => {
+    if (window.location.hash) {
+      let initial_nav = select(window.location.hash);
 
-  //     if (initial_nav) {
-  //       let header = select("#header");
-  //       let navlinks = select("#navbar .nav-link", true);
+      if (initial_nav) {
+        let header = select("#header");
+        let navlinks = select("#navbar .nav-link", true);
 
-  //       header.classList.add("header-top");
+        header.classList.add("header-top");
 
-  //       navlinks.forEach((item) => {
-  //         if (item.getAttribute("href") == window.location.hash) {
-  //           item.classList.add("active");
-  //         } else {
-  //           item.classList.remove("active");
-  //         }
-  //       });
+        navlinks.forEach((item) => {
+          if (item.getAttribute("href") == window.location.hash) {
+            item.classList.add("active");
+          } else {
+            item.classList.remove("active");
+          }
+        });
 
-  //       setTimeout(function () {
-  //         initial_nav.classList.add("section-show");
-  //       }, 350);
+        setTimeout(function () {
+          initial_nav.classList.add("section-show");
+        }, 350);
 
-  //       scrollto(window.location.hash);
-  //     }
-  //   }
-  // });
-
-  if (window.location.hash) {
-    let initial_nav = select(window.location.hash);
-
-    if (initial_nav) {
-      let header = select("#header");
-      let navlinks = select("#navbar .nav-link", true);
-
-      header.classList.add("header-top");
-
-      navlinks.forEach((item) => {
-        if (item.getAttribute("href") == window.location.hash) {
-          item.classList.add("active");
-        } else {
-          item.classList.remove("active");
-        }
-      });
-
-      setTimeout(function () {
-        initial_nav.classList.add("section-show");
-      }, 350);
-
-      scrollto(window.location.hash);
+        scrollto(window.location.hash);
+      }
     }
-  }
+  });
+
+  // if (window.location.hash) {
+  //   let initial_nav = select(window.location.hash);
+
+  //   if (initial_nav) {
+  //     let header = select("#header");
+  //     let navlinks = select("#navbar .nav-link", true);
+
+  //     header.classList.add("header-top");
+
+  //     navlinks.forEach((item) => {
+  //       if (item.getAttribute("href") == window.location.hash) {
+  //         item.classList.add("active");
+  //       } else {
+  //         item.classList.remove("active");
+  //       }
+  //     });
+
+  //     setTimeout(function () {
+  //       initial_nav.classList.add("section-show");
+  //     }, 350);
+
+  //     scrollto(window.location.hash);
+  //   }
+  // }
 
   /**
    * Skills animation
