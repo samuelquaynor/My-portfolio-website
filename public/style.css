@@ -210,7 +210,7 @@ h6 {
   position: relative;
 }
 
-.navbar li+li {
+.navbar li + li {
   margin-left: 30px;
 }
 
@@ -249,7 +249,7 @@ h6 {
 }
 
 .navbar a:hover:before,
-.navbar li:hover>a:before,
+.navbar li:hover > a:before,
 .navbar .active:before {
   visibility: visible;
   width: 25px;
@@ -258,7 +258,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #fff;
 }
 
@@ -323,7 +323,7 @@ h6 {
   padding: 12px 20px;
 }
 
-.navbar-mobile li+li {
+.navbar-mobile li + li {
   margin: 0;
 }
 
@@ -495,6 +495,34 @@ section .container {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #fff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
+
+.pagination a {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #6c7ac9;
+  color: #6c7ac9;
+}
+
+.pagination__link {
+  font-weight: bold;
+}
+
+.pagination__link--active a {
+  color: #fff;
+  background: #6c7ac9;
+}
+
+.pagination__link--disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
 }
 
 .skills .progress .skill .val {
@@ -964,7 +992,7 @@ section .container {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1061,7 +1089,7 @@ section .container {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1129,7 +1157,7 @@ section .container {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #18d26e;
   border: 0;
   padding: 10px 30px;
@@ -1138,7 +1166,7 @@ section .container {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #15bb62;
 }
 

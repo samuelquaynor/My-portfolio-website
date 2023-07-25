@@ -1,12 +1,72 @@
 import portfolios from "../../components/portfolio_list.json";
-import { PortfolioDetails } from "../../components/portfolio_model";
+import { useEffect, useState } from "react";
+import { getDownloadURL, listAll, ref } from "firebase/storage";
+import { storage, app } from "../../../firebase.js";
 
 export default function PortfolioPage({
   portfolioId,
 }: {
   portfolioId: string;
 }) {
+  const [portfolioItems, setPortfolioItems] = useState(portfolios);
+
   const portfolio = portfolios.find((portfo) => portfo.id == portfolioId);
+
+  useEffect(() => {
+    // Function to fetch the storage items
+    const getAllImages = async () => {
+      try {
+        const updatedPortfolioItems = await Promise.all(
+          portfolios.map(async (portfolio) => {
+            // if (portfolio.ref.length <= 1) {
+            const listRef = ref(storage, `portfolio/${portfolio.ref[0]}/`);
+            const listResult = await listAll(listRef);
+            const imageUrls = await Promise.all(
+              listResult.items.map(async (itemRef) => {
+                return await getDownloadURL(itemRef);
+              })
+            );
+
+            // Return a new portfolio object with the updated images array
+            return { ...portfolio, images: imageUrls };
+            // } else {
+            //   let imageUrl2: string[] = [];
+            //   portfolio.ref.map(async (port) => {
+            //     const listRef = ref(
+            //       storage,
+            //       `portfolio/${portfolio.ref[0]}/${port}/`
+            //     );
+            //     const listResult = await listAll(listRef);
+            //     // console.log(listResult);
+            //     imageUrl2 = await Promise.all(
+            //       listResult.items.map(async (itemRef) => {
+            //         return await getDownloadURL(itemRef);
+            //       })
+            //     );
+            //   });
+            //   const listRef = ref(storage, `portfolio/${portfolio.ref[0]}/`);
+            //   const listResult = await listAll(listRef);
+            //   const imageUrls = await Promise.all(
+            //     listResult.items.map(async (itemRef) => {
+            //       return await getDownloadURL(itemRef);
+            //     })
+            //   );
+            //   // Return a new portfolio object with the updated images array
+            //   return { ...portfolio, images: imageUrls.concat(imageUrl2) };
+            // }
+          })
+        );
+
+        // Update the state with the updated portfolio items
+        setPortfolioItems(updatedPortfolioItems);
+      } catch (error) {
+        console.error("Error updating portfolio images:", error);
+      }
+    };
+
+    // Call the function to get the updated portfolio items
+    getAllImages();
+  }, []);
   return (
     <>
       <main id="main">
@@ -18,17 +78,19 @@ export default function PortfolioPage({
                 <h2 className="portfolio-title">{portfolio?.title}</h2>
                 <div className="portfolio-details-slider swiper">
                   <div className="swiper-wrapper align-items-center">
-                    {portfolio?.images.map((url) => (
-                      <div className="swiper-slide">
-                        <div className="w-full" >
-                          <img
-                            src={url}
-                            style={{maxHeight:"480px"}}
-                            alt=""
-                          />
+                    {portfolioItems
+                      .find((item) => item.id == portfolioId)
+                      ?.images.map((url) => (
+                        <div className="swiper-slide" key={url}>
+                          <div className="w-full">
+                            <img
+                              src={url}
+                              style={{ maxHeight: "480px" }}
+                              alt=""
+                            />
+                          </div>
                         </div>
-                      </div>
-                    ))}
+                      ))}
                   </div>
                   <div className="swiper-pagination" />
                 </div>
